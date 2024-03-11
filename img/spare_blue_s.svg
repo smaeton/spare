@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 638.4 360">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3a53a4;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+
+      .cls-2 {
+        font-family: AddressSansPro-CdBoldIt, 'Address Sans Pro';
+        font-size: 196px;
+        font-style: italic;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #3a53a4;
+      }
+    </style>
+  </defs>
+  <path class="cls-3" d="m131.81,68.73h187.39v205.01h-187.39c-52.81,0-95.69-42.88-95.69-95.69v-13.63c0-52.81,42.88-95.69,95.69-95.69Z"/>
+  <path class="cls-1" d="m418.69,68.73h180.89c1.49,0,2.7,1.21,2.7,2.7v199.62c0,1.49-1.21,2.7-2.7,2.7h-180.89c-54.91,0-99.49-44.58-99.49-99.49v-6.03c0-54.91,44.58-99.49,99.49-99.49Z" transform="translate(921.48 342.47) rotate(-180)"/>
+  <text class="cls-2" transform="translate(394.71 238.06)"><tspan x="0" y="0">S</tspan></text>
+</svg>
