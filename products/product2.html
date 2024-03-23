@@ -22,6 +22,7 @@
                 <li><a href="../archive.html" class="menulink"><h2>E-SHOP</h2></a></li>
                 <li><a href="../about_us.html" class="menulink"><h2>ARCHIVE</h2></a></li>
                 <li><a href="../contact.html" class="menulink"><h2>CONTACT US</h2></a></li>
+                <li><button type="button" class=" btn btn-close-modal" data-bs-dismiss="modal" >←</button></li>
               </ul>
             </div>
           </div>
@@ -81,8 +82,9 @@
     <section class="py-5">
         <div class="container px-4 px-lg-5 my-5">
             <div class="row gx-4 gx-lg-5 align-items-center">
-                <div class="col-md-6">
-                    <img class="card-img-top mb-5 mb-md-0" src="../img/bluray/ray_front.jpg" alt="tee" onmouseover="hover(this);" onmouseout="hoverOut(this)"/>
+                <div class="col-md-6 card">
+                  <img src="../img/headers/jpg/tee_logo.jpg" class="card-img-top" alt="Product Image">
+                  <img src="../img/headers/jpg/tee_ray2.jpg" class="upper-image card-img-top" alt="Product Image">
                 </div>
                 <div class="col-md-6">
                     <div class="small mb-1">SKU: TOP-01</div>
@@ -95,7 +97,7 @@
                     <h5>Interior: 100% Cotton</h5>
                     <div class="d-flex">
                         <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-                        <button style="color: #0000ff; font-weight: 900;" class="btn btn-primary btn-lg" type="button">
+                        <button style="color: #ffffff; font-weight: 400;" class="btn btn-primary btn-lg" type="button">
                             Add to cart
                         </button>
                     </div>
@@ -105,61 +107,64 @@
     </section>
     <!--product-->
     <!--related items-->
-    <section>
-        <div class="container px-4 px-lg-5 mt-5">
-            <h2 class="fw-bolder mb-4">Other Products</h2>
-            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                <div class="col mb-5">
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                          <div class="card-image2">
-                            <img src="../img/bomber/front.jpg" alt="Bomber" class="card-img2">
-                          </div>
-                        </div>
-                        <div class="card-content">
-                          <h2 class="name">Apple Bomber</h2>
-                          <p class="description">Laser-engraved print</p>
-                          <a href="../products/product3.html">
-                            <button class="button">View More</button>
-                          </a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col mb-5">
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                          <div class="card-image2">
-                            <img src="../img/hoodie/front.jpg" alt="tee_bluray" class="card-img2">
-                          </div>
-                        </div>
-                        <div class="card-content">
-                          <h2 class="name">Medication Hoodie</h2>
-                          <p class="description">Hard material, Thrifted hoodie</p>
-                          <a href="../products/product1.html">
-                            <button class="button">View More</button>
-                          </a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col mb-5">
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                          <div class="card-image2">
-                            <img src="../img/logo_tee/front.jpg" alt="hoodie" class="card-img2">
-                          </div>
-                        </div>
-                        <div class="card-content">
-                          <h2 class="name">Logo Tee</h2>
-                          <p class="description">Heat press print, Boxy fit</p>
-                          <a href="../products/product4.html">
-                            <button class="button">View More</button>
-                          </a>
-                        </div>
-                      </div>
-                </div>
+    <div class="d-xxl-none d-xl-none d-lg-none container product-container">
+      <h2 class="fw-bolder mb-4">Other Products</h2>
+      <div class="row col-lg-2 ">
+        <div class="row">
+          <div onclick="location.href='../products/product1.html';" style="cursor: pointer;" class="col product-col">
+            <div class="containerproduct card product-card">
+              <img src="../img/headers/jpg/hoodie.jpg" class="card-img-top" alt="Product Image">
+              <img src="../img/headers/jpg/hoodie2.jpg" class="upper-image card-img-top" alt="Product Image">
+              <div class="card-body">
+                <h5 class="card-title">Logo Tee</h5>
+                <p class="card-text">Boxy fit, Cropped</p>
+                <p class="card-text">15</p>
+              </div>
             </div>
+          </div>
+          <div onclick="location.href='../products/product3.html';" style="cursor: pointer;" class="col product-col">
+            <div class="containerproduct card product-card">
+              <img src="../img/headers/jpg/bomber.jpg" class="card-img-top" alt="Product Image">
+              <img src="../img/headers/jpg/bomber2.jpg" class="upper-image card-img-top" alt="Product Image">
+              <div class="card-body">
+                <h5 class="card-title">Bomber</h5>
+                <p class="card-text">Heat press print</p>
+                <p class="card-text">80€</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+    <div class="d-none d-xxl-block d-xl-block d-lg-block container product-container">
+      <h2 class="fw-bolder mb-4">Other Products</h2>
+      <div class="row gx-4 gx-lg-5 row-cols-2 ">
+        <div class="row">
+          <div onclick="location.href='../products/product2.html';" style="cursor: pointer;" class="col product-col">
+            <div class="containerproduct card product-card">
+              <img src="../img/headers/jpg/tee_logo.jpg" class="card-img-top" alt="Product Image">
+              <img src="../img/headers/jpg/tee_logo2.jpg" class="upper-image card-img-top" alt="Product Image">
+              <div class="card-body">
+                <h5 class="card-title">Logo Tee</h5>
+                <p class="card-text">Boxy fit, Cropped</p>
+                <p class="card-text">15</p>
+              </div>
+            </div>
+          </div>
+          <div onclick="location.href='../products/product3.html';" style="cursor: pointer;" class="col product-col">
+            <div class="containerproduct card product-card">
+              <img src="../img/headers/jpg/bomber.jpg" class="card-img-top" alt="Product Image">
+              <img src="../img/headers/jpg/bomber2.jpg" class="upper-image card-img-top" alt="Product Image">
+              <div class="card-body">
+                <h5 class="card-title">Bomber</h5>
+                <p class="card-text">Heat press print</p>
+                <p class="card-text">80€</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--related items-->
     <!--footer-->
     <footer class="footer border-top" style="font-weight: 300; color:white;">
@@ -175,7 +180,7 @@
           <div class="row mt-3">
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <h6 style="font-weight: 600;">SPARE</h6>
-              <p>Here you can use rows and columns to organize your footer content. Lorem ipsumdolor sit amet, consectetur adipisicing elit.</p>
+              <p>Delivering quality products right to your doorstep. For any questions, you can find us on our mail or visit us in our <a target="_blank" href="https://maps.app.goo.gl/WBjN6QbqXCqL9knW8">store</a></p>
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
@@ -201,14 +206,5 @@
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!--scripts-->
-    <script>
-      function hover(img)
-      {
-      img.src = "../img/bluray/ray_back.jpg"
-      };
-      function hoverOut(img){
-      img.src = "../img/bluray/ray_front.jpg"
-      }
-      </script>
   </body>
 </html>

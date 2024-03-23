@@ -22,6 +22,7 @@
                 <li><a href="archive.html" class="menulink"><h2>ARCHIVE</h2></a></li>
                 <li><a href="about_us.html" class="menulink"><h2>ABOUT US</h2></a></li>
                 <li><a href="contact.html" class="menulink"><h2>CONTACT</h2></a></li>
+                <li><button type="button" class=" btn btn-close-modal" data-bs-dismiss="modal" >←</button></li>
               </ul>
             </div>
           </div>
@@ -78,70 +79,45 @@
     </div>
     <!--menu-->
     <h2 class="teamtitle">Our team</h2>
-    <!--slider-->
-    <body>
-      <div class="slide-container swiper">
-          <div class="slide-content">
-              <div class="card-wrapper swiper-wrapper">
-                  <div class="card swiper-slide">
-                      <div class="image-content">
-                          <div class="card-image">
-                              <img src="img/osoby/jan.jpg" alt="" class="card-img">
-                          </div>
-                      </div>
-                      <div class="card-content">
-                          <h2 class="name">Tomáš Volgajevicz</h2>
-                          <p class="description">Chief Executive Officer</p>
-                          <a href="https://www.instagram.com/dzejnouu/" target="_blank"><button class="button">View More</button></a>
-                      </div>
-                  </div>
-                  <div class="card swiper-slide">
-                      <div class="image-content">
-                          <div class="card-image">
-                          <img src="img/osoby/ja.jpg" alt="" class="card-img">
-                          </div>
-                      </div>
-                      <div class="card-content">
-                          <h2 class="name">Vlajo Harcol</h2>
-                          <p class="description">Fashion Designer</p>
-                          <a href="https://www.instagram.com/smaeton/" target="_blank"><button class="button">View More</button></a>
-                      </div>
-                  </div>
-                  <div class="card swiper-slide">
-                      <div class="image-content">
-                          <div class="card-image">
-                              <img src="img/osoby/IMG_5361.jpg" alt="" class="card-img">
-                          </div>
-                      </div>
-                      <div class="card-content">
-                          <h2 class="name">Gravic Pothan</h2>
-                          <p class="description">Main Grapic Designer</p>
-                          <a href="https://www.instagram.com/metju_fotos/" target="_blank"><button class="button">View More</button></a>
-                      </div>
-                  </div>
-                  <div class="card swiper-slide">
-                      <div class="image-content">
-                          <div class="card-image">
-                              <img src="img/osoby/ado.jpg" alt="" class="card-img">
-                          </div>
-                      </div>
-                      <div class="card-content">
-                          <h2 class="name">Andrew Daniel</h2>
-                          <p class="description">Main Backend Programator</p>
-                          <a href="https://www.instagram.com/andrej_kmetko/" target="_blank"><button class="button">View More</button></a>
-                      </div>
-                  </div>
-              </div>
+    <!--team-->
+    <div class="container product-container">
+      <div class="row">
+        <div class="col product-col" >
+          <div class="containerproduct card product-card">
+            <img src="img/osoby/jan.jpg" alt="tomas">
+            <div class="card-body text-center">
+              <h5 class="card-title">Tomáš Volgajevicz</h5>
+              <p class="card-text">Chief Executive Officer</p>
+              <a href="https://www.instagram.com/dzejnouu/" target="_blank"><button class="button">View More</button></a>
+            </div>
           </div>
-          <div style="height: 35px;"></div>
-          <div class="swiper-button-next swiper-navBtn"></div>
-          <div class="swiper-button-prev swiper-navBtn"></div>
-          <div class="swiper-pagination"></div>
+        </div>
+        <div class="col product-col">
+          <div class="containerproduct card product-card">
+            <img src="img/osoby/matus.jpg" alt="Vlajo">
+            <div class="card-body text-center">
+              <h5 class="card-title">Gravic Potham</h5>
+              <p class="card-text">Fashion Designer</p>
+              <a href="https://www.instagram.com/metju_fotos/" target="_blank"><button class="button">View More</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col product-col">
+          <div class="containerproduct card product-card">
+            <img src="img/osoby/ado.jpg" alt="Vlajo">
+            <div class="card-body text-center">
+              <h5 class="card-title">Andrew Daniel</h5>
+              <p class="card-text">Graphic designer</p>
+              <a href="https://www.instagram.com/andrej_kmetko/" target="_blank"><button class="button">View More</button></a>
+            </div>
+          </div>
+        </div>
       </div>
-    <!--slider-->
+    </div>
+    <!--team-->
     <!--mapa-->
     <h2 class="teamtitle">Our Flagship Store</h2>
-    <div class="container">
+    <div class="d-none d-xxl-block d-xl-block d-lg-block container">
       <div class="row py-5">
         <div class="col-lg-4 offset-lg-1">
           <div class="lc-block my-5">
@@ -151,16 +127,37 @@
           </div>
           <div class="lc-block my-5">
             <div class="herodiv" editable="rich">
-              <p>Our flagship store is located on Michalská street in the heart of Slovakia's capital- Bratislava. We would be pleased to welcome you there. </p>
+              <p style="font-weight: 400;">Our flagship store is located on Michalská street in the heart of Slovakia's capital- Bratislava. We would be pleased to welcome you there. </p>
             </div>
           </div>
           <div class="lc-block">
-            <a style="color: #0000ff; font-weight: 900;" class="btn btn-primary btn-lg" href="https://maps.app.goo.gl/WBjN6QbqXCqL9knW8" role="button">OPEN MAP</a>
+            <a class="btn btn-primary btn-lg" href="https://maps.app.goo.gl/WBjN6QbqXCqL9knW8" role="button">Open map</a>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6">
           <div class="lc-block ratio ratio-1x1">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d665.5610673491078!2d17.106113428588035!3d48.14409579819528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c895cd9cf2269%3A0x4d0934e2981cfc36!2sMichalsk%C3%A1%20382%2F4%2C%20811%2001%20Bratislava!5e0!3m2!1ssk!2ssk!4v1710152957819!5m2!1ssk!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-xxl-none d-xl-none d-lg-none container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 div-map">
+          <div class="lc-block ratio ratio-1x1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d665.5610673491078!2d17.106113428588035!3d48.14409579819528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c895cd9cf2269%3A0x4d0934e2981cfc36!2sMichalsk%C3%A1%20382%2F4%2C%20811%2001%20Bratislava!5e0!3m2!1ssk!2ssk!4v1710152957819!5m2!1ssk!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="lc-block my-5">
+            <div editable="rich">
+              <h2 class="rfs-25">Where can you find us ?</h2>
+            </div>
+          </div>
+              <p style="font-weight: 400;">Our flagship store is located on Michalská street in the heart of Slovakia's capital- Bratislava. We would be pleased to welcome you there. </p>
+          </div>
+          <div class="lc-block">
+            <a class="btn btn-primary btn-lg btn-map" href="https://maps.app.goo.gl/WBjN6QbqXCqL9knW8" role="button">Open map</a>
           </div>
         </div>
       </div>
@@ -180,7 +177,7 @@
           <div class="row mt-3">
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <h6 style="font-weight: 600;">SPARE</h6>
-              <p>Here you can use rows and columns to organize your footer content. Lorem ipsumdolor sit amet, consectetur adipisicing elit.</p>
+              <p>Delivering quality products right to your doorstep. For any questions, you can find us on our mail or visit us in our <a target="_blank" href="https://maps.app.goo.gl/WBjN6QbqXCqL9knW8">store</a></p>
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>

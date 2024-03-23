@@ -22,6 +22,7 @@
                 <li><a href="archive.html" class="menulink"><h2>ARCHIVE</h2></a></li>
                 <li><a href="about_us.html" class="menulink"><h2>ABOUT US</h2></a></li>
                 <li><a href="contact.html" class="menulink"><h2>CONTACT US </h2></a></li>
+                <li><button type="button" class=" btn btn-close-modal" data-bs-dismiss="modal" >←</button></li>
               </ul>
             </div>
           </div>
@@ -77,10 +78,34 @@
       </div>
     </div>
     <!--menu-->
-    <div style="height: 100px;"></div>
-    <h2 class="teamtitle" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Log in to our site">Log In</h2>
-    <div style="height: 50px;"></div>
+    <h2 class="teamtitle">Contact us</h2>
     <!--form-->
+    <form class="contact-form row g-3">
+      <div class="col-md-6">
+        <input type="text" class="form-control-own" id="name" name="name" placeholder="Name">
+      </div>
+      <div class="col-md-6">
+        <input type="email" class="form-control-own" id="email" name="email" placeholder="Email">
+      </div>
+      <div class="col-md-12">
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}" class="form-control-own" id="phone" name="phone" placeholder="Phone number">
+      </div>
+      <div class="col-12">
+        <textarea class="form-control-own" id="message" name="message" rows="5" placeholder="Your message"></textarea>
+      </div>
+      <div class="col-12">
+        <button type="submit" class=" btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="By sending this message to us, you agree to our terms and conditions">Send Message</button>
+      </div>
+    </form>
+    <h2 class="teamtitle">Recieve our newsletter</h2>
+    <form class="contact-form row g-3">
+      <div class="col-md-6">
+        <input type="email" class="form-control-own" id="email" name="email" placeholder="Email">
+      </div>
+      <div class="col-12">
+        <button type="submit" class=" btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="By confirming this you agree to recieve informations about our new products and deals">Confirm</button>
+      </div>
+    </form>
     <!--form-->
     <!--footer-->
     <footer class="footer border-top" style="font-weight: 300; color:white; background-color:#1324dd">
@@ -96,7 +121,7 @@
           <div class="row mt-3">
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <h6 style="font-weight: 600;">SPARE</h6>
-              <p>Here you can use rows and columns to organize your footer content. Lorem ipsumdolor sit amet, consectetur adipisicing elit.</p>
+              <p>Delivering quality products right to your doorstep. For any questions, you can find us on our mail or visit us in our <a target="_blank" href="https://maps.app.goo.gl/WBjN6QbqXCqL9knW8">store</a></p>
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
