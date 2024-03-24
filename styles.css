@@ -226,6 +226,12 @@ a:active {color: white;}
   margin-top: 2%;
   margin-bottom: 2%;
 }
+.carousel-phone {
+  width: 95%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
 .carousel-item img {
   width: 100%;
