@@ -201,8 +201,18 @@ a:active {color: white;}
   padding: 15px; /* Adjust padding as needed */
 }
 @media (max-width: 768px) {
-  .product-col {
+  .team-col {
     width: 100%; /* 1 card per row on small screens */
+  }
+}
+@media (min-width: 768px) {
+  .team-col {
+    width: 33.33%; /* 3 cards per row on larger screens */
+  }
+}
+@media (max-width: 768px) {
+  .product-col {
+    width: 50%; /* 2 card per row on small screens */
   }
 }
 @media (min-width: 768px) {
@@ -212,6 +222,12 @@ a:active {color: white;}
 }
 .carousel {
   width: 60%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.carousel-phone {
+  width: 95%;
   margin: auto;
   margin-top: 2%;
   margin-bottom: 2%;
