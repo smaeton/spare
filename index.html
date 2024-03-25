@@ -6,6 +6,7 @@
     <title>Spare</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   </head>
@@ -76,8 +77,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>    
     <!--carousel-->
+    <!--pc-->
     <div id="myCarousel" class="carousel slide d-none d-xxl-block d-xl-block d-lg-block" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -104,21 +106,17 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <!--mobil-->
     <div id="myCarousel" class="carousel-phone slide d-xxl-none d-xl-none d-lg-none" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img onclick="location.href='products/product1.html';" style="cursor: pointer;" src="img/carousel_hoodie.jpg" class="d-block w-100" alt="carousel hoodie">
+          <img onclick="location.href='products/product1.html';" style="cursor: pointer;" src="img/carousel_hoodie_mobil.jpg" class="d-block w-100" alt="carousel hoodie">
         </div>
         <div class="carousel-item">
-          <img src="img/carousel_hoodie2.jpg" class="d-block w-100" alt="carousel">
+          <img src="img/carousel_hoodie_mobil2.jpg" class="d-block w-100" alt="carousel">
         </div>
         <div class="carousel-item">
-          <img src="img/carousel_hoodie3.jpg" class="d-block w-100" alt="carousel">
+          <img src="img/carousel_hoodie_mobil3.jpg" class="d-block w-100" alt="carousel">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -131,14 +129,20 @@
       </button>
     </div>
     <!--carousel--> 
-    <div class="jumbotron jumbotron-fluid">
+    <!--welcome-->
+    <h2 class="menutitlewelcome">Welcome to our piece of heaven</h2>
+    <div class="menutextdiv">
+      <p class="menutext">Step into a world where style doesn't come at an expense of our planet. Embrace clothing crafted from recycled materials, with each piece being a testament to our commitment to sustainability. Explore our collection and wear our garments proudly.</p>
+    </div>
+    <!--welcome-->
+    <div class="wow animate__animated animate__fadeInUpBig jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">Tops</h1>
         <p class="lead">Thrifted pieces with unique prints</p>
       </div>
     </div> 
     <!--menu_tops-->
-    <div class="container product-container d-none d-xxl-block d-xl-block d-lg-block">
+    <div class="wow animate__animated animate__fadeInUpBig container product-container d-none d-xxl-block d-xl-block d-lg-block">
       <div class="row">
         <div onclick="location.href='products/product1.html';" style="cursor: pointer;" class="col product-col" >
           <div class="containerproduct card product-card">
@@ -175,7 +179,7 @@
         </div>
       </div>
     </div>
-    <div class="container product-container d-xxl-none d-xl-none d-lg-none">
+    <div class="wow animate__animated animate__fadeInUpBig container product-container d-xxl-none d-xl-none d-lg-none">
       <div class="row">
         <div onclick="location.href='products/product1.html';" class="col product-col" >
           <div class="containerproduct card product-card">
@@ -212,14 +216,14 @@
       </div>
     </div>
     <!--menu_tops-->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="wow animate__animated animate__fadeInUpBig jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">Bottoms</h1>
         <p class="lead">Custom crafted from recycled materials, fits exquisetely to your size</p>
       </div>
     </div>
     <!--menu_bottoms-->
-    <div class="container product-container d-none d-xxl-block d-xl-block d-lg-block">
+    <div class="wow animate__animated animate__fadeInUpBig container product-container d-none d-xxl-block d-xl-block d-lg-block">
       <div class="row">
         <div onclick="location.href='products/product3.html';" style="cursor: pointer;" class="col product-col">
           <div class="containerproduct card product-card">
@@ -249,7 +253,7 @@
         </div>
       </div>
     </div>
-    <div class="container product-container d-xxl-none d-xl-none d-lg-none">
+    <div class="wow animate__animated animate__fadeInUpBig container product-container d-xxl-none d-xl-none d-lg-none">
       <div class="row">
         <div onclick="location.href='products/product3.html';" class="col product-col">
           <div class="containerproduct card product-card">
@@ -276,23 +280,22 @@
       </div>
     </div>
     <!--menu_bottoms-->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="wow animate__animated animate__fadeInUpBig jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">Accessories</h1>
         <p class="lead">Custom crafted </p>
       </div>
     </div>
     <!--menu_accessories-->
-    <div class="container product-container d-none d-xxl-block d-xl-block d-lg-block">
+    <div class="wow animate__animated animate__fadeInUpBig container product-container d-none d-xxl-block d-xl-block d-lg-block">
       <div class="row">
-        <div onclick="location.href='products/product1.html';" style="cursor: pointer;" class="col product-col">
+        <div onclick="location.href='products/product3.html';" style="cursor: pointer;" class="col product-col">
           <div class="containerproduct card product-card">
-              <img src="img/headers/jpg/capalt.jpg" class="card-img-top" alt="Product Image">
-              <img src="img/headers/jpg/capalt.jpg" class="upper-image card-img-top" alt="Product Image">
+            <img src="img/headers/jpg/capalt.jpg" alt="Product Image">
             <div class="card-body">
               <h5 class="card-title">Medication Cap</h5>
-              <p class="card-text">Embroided logo</p>
-              <p class="card-text">20€</p>
+              <p class="card-text">Embroided log</p>
+              <p class="card-text"><p class="card-text">40€</p>
             </div>
           </div>
         </div>
@@ -306,26 +309,21 @@
         </div>
       </div>
     </div>
-    <div class="container product-container d-xxl-none d-xl-none d-lg-none">
+    <div class="wow animate__animated animate__fadeInUpBig container product-container d-xxl-none d-xl-none d-lg-none">
       <div class="row">
-        <div onclick="location.href='products/product1.html';" style="cursor: pointer;" class="col product-col">
+        <div onclick="location.href='products/product3.html';" class="col product-col">
           <div class="containerproduct card product-card">
-              <img src="img/headers/jpg/capalt.jpg" class="card-img-top" alt="Product Image">
-              <img src="img/headers/jpg/capalt.jpg" class="upper-image card-img-top" alt="Product Image">
+            <img src="img/headers/jpg/capalt.jpg" alt="Product Image">
             <div class="card-body">
               <h5 class="card-title">Medication Cap</h5>
-              <p class="card-text">Embroided logo</p>
-              <p class="card-text">20€</p>
+              <p class="card-text">Embroided log</p>
+              <p class="card-text"><p class="card-text">40€</p>
             </div>
           </div>
         </div>
         <div class="col product-col">
-          <div>
-          </div>
         </div>
         <div class="col product-col">
-          <div>
-          </div>
         </div>
       </div>
     </div>
@@ -366,10 +364,10 @@
       </div>
     </footer>
     <!--footer-->
-    <!-- Swiper JS -->
-    <script src="js/swiper-bundle.min.js"></script>
     <!-- JavaScript -->
-    <script src="js/script.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script> <!-- aktovovanie cinnosti animacie -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
