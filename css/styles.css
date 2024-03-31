@@ -201,26 +201,26 @@ a:active {color: white;}
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .card-body {
-  padding: 15px; /* Adjust padding as needed */
+  padding: 15px;
 }
 @media (max-width: 768px) {
   .team-col {
-    width: 100%; /* 1 card per row on small screens */
+    width: 100%; 
   }
 }
 @media (min-width: 768px) {
   .team-col {
-    width: 33.33%; /* 3 cards per row on larger screens */
+    width: 33.33%;
   }
 }
 @media (max-width: 768px) {
   .product-col {
-    width: 50%; /* 2 card per row on small screens */
+    width: 50%; 
   }
 }
 @media (min-width: 768px) {
   .product-col {
-    width: 33.33%; /* 3 cards per row on larger screens */
+    width: 33.33%; 
   }
 }
 .carousel {
@@ -276,7 +276,7 @@ a:active {color: white;}
   background-color: #FFF;
   border: none;
   margin-bottom: 20px;
-  width: calc(25% - 10px); /* Adjust width for 4 cards per row */
+  width: calc(25% - 10px);
 }
 .display-4{margin-top: 5%;}
 .btn-map{margin-bottom: 4%;border-radius: 0px;}
@@ -298,7 +298,7 @@ a:active {color: white;}
   padding: 10px 15px;
   border: 1px solid #222222;
   border-radius: 0px;
-  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  box-sizing: border-box;
   
 }
 .form-control-own{
@@ -315,10 +315,10 @@ a:active {color: white;}
   width: 100%;
   padding: 10px 15px;
   border-radius: 0px;
-  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  box-sizing: border-box;
 }
 .form-control-own:focus {
-  border-radius: 0; /* Remove border radius when content is present */
+  border-radius: 0;
 }
 .btn-close-modal{
   font-weight: 200;
