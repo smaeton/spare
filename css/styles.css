@@ -70,7 +70,7 @@ body{
 .herodiv{height: 125px;}
 .containerform{background-color: #FFF; color: #1324dd; height: 245px;}
 .menubutton:hover {color: #00009e; color: #ffffff}
-.modal-header {background-color: #1324dd; color:#ffffff;}
+.modal-header {background-color: #1324dd; color:#ffffff;border-radius: 0px;}
 .modal-body {background-color: #1324dd;color: #ffffff;}
 .menulink {text-decoration: none;}
 .menulink:hover{color: #c4c4c4;}
@@ -88,7 +88,7 @@ a:active {color: white;}
 .btn-primary2{background-color: #1324dd;color: #FFF; font-weight: 400;border-radius: 0px;}
 .btn-primary:hover{color: #ffffff; background-color: #00009e;border-radius: 0px;}
 .modal-body-cart {background-color: #ffffff color #1324dd;}
-.modal-footer-cart {border-bottom-right-radius: 7px;border-bottom-left-radius: 7px; text-align: center; background-color: #1324dd; color: white;}
+.modal-footer-cart {text-align: center; background-color: #1324dd; color: white;}
 .modal-content{border-radius: 0px;}
 .btn-secondary-cart{background-color: #1324dd; color: #ffffff;border-radius: 0px;}
 .btn-secondary-cart:hover{background-color: #00009e; color: #ffffff;border-radius: 0px;}
@@ -96,9 +96,9 @@ a:active {color: white;}
 .btn-primary-cart:hover{background-color: #00009e; color: #ffffff;border-radius: 0px;}
 .footerinsta{display: flex; justify-content: center; align-items: center; margin: 0% !important;}
 .teamtitle{color: rgb(36, 36, 36); text-align:center; font-weight: 500; margin-top: 4%;}
-.menutitle{color: rgb(36, 36, 36); text-align:center; font-weight: 500;}
+.menutitle{color: rgb(36, 36, 36); text-align:center; font-weight: 500;margin-left: 25px;margin-right: 25px;}
 .menutitlewelcome{color: rgb(36, 36, 36); text-align:center; font-weight: 500; margin-top: 5%;}
-.menutitle2{color: rgb(36, 36, 36); font-weight: 500;text-align:center; margin-bottom: 4%;}
+.menutitle2{color: rgb(36, 36, 36); font-weight: 500;text-align:center; margin-bottom: 4%;margin-left: 25px;margin-right: 25px;}
 .menutext{color: rgb(36, 36, 36); font-weight: 500;text-align:center; margin-bottom: 4%; font-size: large;}
 .menutextdiv{}
 .btn:hover{color: #ffffff;border-radius: 0px;}
