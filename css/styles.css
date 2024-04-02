@@ -7,6 +7,8 @@
     font-display: swap;
 }
 body{
+  opacity: 0;
+  transition: opacity .5s;
   background-image: url("../img/background2.jpg");
   background-color: #ffffff;
   color: #000;
@@ -44,7 +46,7 @@ body{
 .menulist {
     margin-top: 40vh;
     text-align: center;
-    color: white;
+    color: white!important;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -73,13 +75,14 @@ body{
 .menubutton:hover {color: #ffffff; font-size:34px;}
 .modal-header {background-color: #1324dd; color:#ffffff;border-radius: 0px;}
 .modal-body {background-color: #1324dd;color: #ffffff;}
-.menulink {transition: all 30ms}
+.menulink {transition: all 40ms}
 .menulink:hover{ font-size:37px;}
 .btn-close-modal:hover{color: #c4c4c4;}
 .modalimage {margin-bottom: 2%;}
+a {color: #fff;}
 a:link {color: white;}
 a:visited {color: white;}
-a:hover {color: #00009e; color: #ffffff}
+a:hover {color: #ffffff}
 a:active {color: white;}
 .menudiv1{text-align: left;}
 .menudiv2{float: left;}

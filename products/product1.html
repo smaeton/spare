@@ -28,10 +28,10 @@
             <div class="menulist">
               <ul class="menulistul">
                 <li class="modalimage"><a href="index.html"><img src="../img/spare_white.gif" alt="logo" class="logoimagemodal"></a></li>
-                <li><a href="../index.html" class="text-decoration-none"><h2 class="menulink">HOME</h2></a></li>
-                <li><a href="../archive.html" class="text-decoration-none"><h2 class="menulink">ARCHIVE</h2></a></li>
-                <li><a href="../about_us.html" class="text-decoration-none"><h2 class="menulink">ABOUT US</h2></a></li>
-                <li><a href="../contact.html" class="text-decoration-none"><h2 class="menulink">CONTACT US</h2></a></li>
+                <li><a style="cursor: pointer;" class="text-decoration-none" onclick="transitionToPage('../index.html')"><h2 class="menulink">HOME</h2></a></li>
+                <li><a style="cursor: pointer;" class="text-decoration-none" onclick="transitionToPage('../archive.html')"><h2 class="menulink">ARCHIVE</h2></a></li>
+                <li><a style="cursor: pointer;" class="text-decoration-none" onclick="transitionToPage('../about_us.html')"><h2 class="menulink">ABOUT US</h2></a></li>
+                <li><a style="cursor: pointer;" class="text-decoration-none" onclick="transitionToPage('../contact.html')"><h2 class="menulink">CONTACT US</h2></a></li>
                 <li><button type="button" class=" btn btn-close-modal" data-bs-dismiss="modal" >←</button></li>
               </ul>
             </div>
@@ -71,8 +71,8 @@
           </div>
           <div class="col">
             <div class="menudiv2">
-              <a href="../index.html"><img style="width:22%;" class="logoimage d-none d-lg-block" src="../img/PNG/Artboard 2 copy 2@2x.png" alt="logo"></a>
-              <a href="../index.html"><img style="width: 100%;" class="logoimage d-lg-none" src="../img/PNG/Artboard 2 copy 2@2x.png" alt="logo"></a>
+              <img onclick="transitionToPage('../index.html')" style="width:22%;cursor: pointer;" class="logoimage d-none d-lg-block" src="../img/PNG/Artboard 2 copy 2@2x.png" alt="logo">
+              <img onclick="transitionToPage('../index.html')" style="width: 100%;" class="logoimage d-lg-none" src="../img/PNG/Artboard 2 copy 2@2x.png" alt="logo">
             </div>
           </div>
           <div class="col">
@@ -86,8 +86,8 @@
           </div>
         </div>
       </div>
-    </div>    
-    <!--menu-->
+    </div>
+    <!--menu--> 
     <!--product-->
     <section class="py-5">
         <div class="container px-4 px-lg-5 my-5">
@@ -214,6 +214,6 @@
     <script src="js/wow.min.js"></script>
     <script>new WOW().init();</script> <!-- aktovovanie cinnosti animacie -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>
