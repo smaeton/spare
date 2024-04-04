@@ -22,6 +22,13 @@ body{
     width: 100vw;
     max-width: 100%;
 }
+.rowmenu{
+  --bs-gutter-x: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 .menusection {
     display: flex;
     justify-content: center;
@@ -31,17 +38,55 @@ body{
     background-color: #1324dd;
     z-index: 100;
 }
-.menubutton {
-    color: #ffffff;
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 30px;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 900;
-    transition: all 40ms;
-    
+.menubuttonphone1 {
+  color: #ffffff;
+  border: none;
+  background-color: inherit;
+  margin-top: 14px;
+  margin-left: 25px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 900;
+  transition: all 40ms; 
+  padding-right: 20px;  
+}
+.menubuttonphone2 {
+  color: #ffffff;
+  border: none;
+  background-color: inherit;
+  margin-top: 14px;
+  margin-right: 25px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 900;
+  transition: all 40ms;
+  padding-left: 20px; 
+}
+.menubutton1 {
+  color: #ffffff;
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 900;
+  transition: all 40ms;
+  margin-left: 50%;   
+}
+.menubutton2 {
+  color: #ffffff;
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 900;
+  transition: all 40ms;
+  margin-right: 50%;   
 }
 .menulist {
     margin-top: 40vh;
@@ -68,11 +113,14 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+.row{--bs-gutter-x: 0rem;}
+.svg{vertical-align: middle;}
 .footer {background-color:#1324dd}
 .rowq {margin-bottom: 100px;}
 .herodiv{height: 125px;}
 .containerform{background-color: #FFF; color: #1324dd; height: 245px;}
-.menubutton:hover {color: #ffffff; font-size:34px;}
+.menubutton2:hover {color: #dbdbdb}
+.menubutton1:hover {color: #dbdbdb}
 .modal-header {background-color: #1324dd; color:#ffffff;border-radius: 0px;}
 .modal-body {background-color: #1324dd;color: #ffffff;}
 .menulink {transition: all 40ms}
@@ -84,9 +132,9 @@ a:link {color: white;}
 a:visited {color: white;}
 a:hover {color: #ffffff}
 a:active {color: white;}
-.menudiv1{text-align: left;}
-.menudiv2{float: left;}
-.menudiv3{text-align: right;}
+.menudiv1{text-align: left; float: right;}
+.menudiv2{margin-left: auto; margin-right: auto; max-width: 370px;}
+.menudiv3{text-align: right; float: left;}
 .menucontainer{height: 100px;}
 .btn-primary{background-color: #1324dd; font-weight: 400; color: #FFF;border-radius: 0px;}
 .btn-primary2{background-color: #1324dd;color: #FFF; font-weight: 400;border-radius: 0px;}
@@ -101,10 +149,10 @@ a:active {color: white;}
 .footerinsta{display: flex; justify-content: center; align-items: center; margin: 0% !important;}
 .teamtitle{color: rgb(36, 36, 36); text-align:center; font-weight: 500; margin-top: 4%;}
 .menutitle{color: rgb(36, 36, 36); text-align:center; font-weight: 500;margin-left: 25px;margin-right: 25px;}
-.menutitlewelcome{color: rgb(36, 36, 36); text-align:center; font-weight: 500; margin-top: 5%;}
+.menutitlewelcome{color: rgb(36, 36, 36); text-align:center; font-weight: 500;margin-left: 25px;margin-right: 25px; margin-top: 45px;}
 .menutitle2{color: rgb(36, 36, 36); font-weight: 500;text-align:center; margin-bottom: 4%;margin-left: 25px;margin-right: 25px;}
 .menutext{color: rgb(36, 36, 36); font-weight: 500;text-align:center; margin-bottom: 4%; font-size: large;}
-.menutextdiv{}
+.carticon{width: 50px;}
 .btn:hover{color: #ffffff;border-radius: 0px;}
 .form-check-input:checked{border-color: #1324dd;background-color: #1324dd;}
 .mapa{
@@ -227,6 +275,9 @@ a:active {color: white;}
     width: 33.33%; 
   }
 }
+.teamimage{max-width: 100%;}
+.team-col{margin-right: 2%;}
+.product-col{margin-right: 1%;}
 .carousel {
   width: 60%;
   margin: auto;
@@ -338,5 +389,9 @@ a:active {color: white;}
   font-size:20px;
 }
 .fa-instagram{transition: all 50ms;}
-.fa-instagram:hover{font-size:38px;
-  font-size-adjust: 20px;}
+.fa-instagram:hover{
+  font-size:38px;
+  font-size-adjust: 20px;
+}
+.card-title{font-size: 1.3rem; font-weight:bold;}
+.card-text{font-size: 1.1rem; font-weight: 100;}
