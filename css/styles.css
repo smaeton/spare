@@ -73,8 +73,7 @@ body{
   cursor: pointer;
   display: inline-block;
   font-weight: 900;
-  transition: all 40ms;
-  margin-left: 50%;   
+  transition: all 40ms;   
 }
 .menubutton2 {
   color: #ffffff;
@@ -85,8 +84,7 @@ body{
   cursor: pointer;
   display: inline-block;
   font-weight: 900;
-  transition: all 40ms;
-  margin-right: 50%;   
+  transition: all 40ms;  
 }
 .menulist {
     margin-top: 40vh;
@@ -395,3 +393,4 @@ a:active {color: white;}
 }
 .card-title{font-size: 1.3rem; font-weight:bold;}
 .card-text{font-size: 1.1rem; font-weight: 100;}
+.footercontact{text-decoration: none;}
