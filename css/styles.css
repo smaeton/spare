@@ -35,7 +35,7 @@ body{
     align-items: center;
     position: sticky;
     top:0;
-    background-color: #1324dd;
+    background-color: #222223;
     z-index: 100;
 }
 .menubuttonphone1 {
@@ -113,14 +113,14 @@ body{
 }
 .row{--bs-gutter-x: 0rem;}
 .svg{vertical-align: middle;}
-.footer {background-color:#1324dd}
+.footer {background-color:#222222}
 .rowq {margin-bottom: 100px;}
 .herodiv{height: 125px;}
 .containerform{background-color: #FFF; color: #1324dd; height: 245px;}
 .menubutton2:hover {color: #dbdbdb}
 .menubutton1:hover {color: #dbdbdb}
 .modal-header {background-color: #1324dd; color:#ffffff;border-radius: 0px;}
-.modal-body {background-color: #1324dd;color: #ffffff;}
+.modal-body {background-color: #222223;color: #ffffff;}
 .menulink {transition: all 40ms}
 .menulink:hover{ font-size:37px;}
 .btn-close-modal:hover{color: #c4c4c4;}
@@ -277,7 +277,6 @@ a:active {color: white;}
 .team-col{margin-right: 2%;}
 .product-col{margin-right: 1%;}
 .carousel {
-  width: 60%;
   margin: auto;
   margin-top: 2%;
   margin-bottom: 2%;
